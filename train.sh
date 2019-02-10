@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TRAIN_PATH=/scratch/users/duxi/SRL/Tagger/data/conll12-train*
+TRAIN_PATH=/scratch/users/duxi/SRL/Tagger/data/conll12-pro/
 DICT_PATH=/scratch/users/duxi/SRL/Tagger/dicts
 EMB_PATH=/scratch/users/duxi/SRL/Tagger/data/glove
 
