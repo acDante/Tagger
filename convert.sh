@@ -5,7 +5,7 @@ OUTPUT_DIR=/scratch/users/duxi/SRL/Tagger/data/conll12-pro
 DICT_PATH=/scratch/users/duxi/SRL/Tagger/dicts
 NUM_SHARDS=10
 
-python tagger/scripts/input_converter.py --input_path $TRAIN_FILE \
+python scripts/input_converter.py --input_path $TRAIN_FILE \
                                          --output_name $NAME      \
                                          --output_dir $OUTPUT_DIR \
                                          --vocab $DICT_PATH/vocab.txt $DICT_PATH/label.txt \
